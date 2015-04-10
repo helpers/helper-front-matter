@@ -1,7 +1,7 @@
 {
   "name": "helper-front-matter",
-  "description": "Template helper for parsing front matter and passing the data to templates as context.",
-  "version.": "0.1.0",
+  "description": "Template helper for parsing front matter and passing the data to templates as context/",
+  "version": "0.1.0",
   "homepage": "https://github.com/helpers/helper-front-matter",
   "author": {
     "name": "Jon Schlinkert",
