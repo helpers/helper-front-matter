@@ -1,6 +1,6 @@
 # helper-front-matter [![NPM version](https://badge.fury.io/js/helper-front-matter.svg)](http://badge.fury.io/js/helper-front-matter)
 
-> Template helper for parsing front matter and passing the data to templates as context.
+> Template helper for parsing front matter and passing the data to templates as context/
 
 ## Install with [npm](npmjs.org)
 
@@ -10,17 +10,15 @@ npm i helper-front-matter --save
 
 ## Usage
 
+### Register the helper
+
 First, let's register another cutomer helper for this example:
 
 ```js
 var fs = require('fs');
 var handlebars = require('handlebars');
 var matter = require('helper-front-matter')(handlebars);
-```
 
-### Register the helper
-
-```js
 // this is our helper
 handlebars.registerHelper('matter', matter(handlebars));
 
