@@ -1,6 +1,6 @@
 # helper-front-matter [![NPM version](https://badge.fury.io/js/helper-front-matter.svg)](http://badge.fury.io/js/helper-front-matter)
 
-> Template helper that parses front matter.
+> Template helper for parsing front matter and passing the data to templates as context.
 
 ## Install with [npm](npmjs.org)
 
